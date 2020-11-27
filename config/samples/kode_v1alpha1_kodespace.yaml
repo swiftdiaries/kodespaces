@@ -1,0 +1,7 @@
+apiVersion: kode.swiftdiaries.com/v1alpha1
+kind: Kodespace
+metadata:
+  name: kodespace-sample
+spec:
+  # Add fields here
+  foo: bar

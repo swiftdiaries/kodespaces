@@ -1,0 +1,20 @@
+# permissions for end users to view kodespaces.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: kodespace-viewer-role
+rules:
+- apiGroups:
+  - kode.swiftdiaries.com
+  resources:
+  - kodespaces
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - kode.swiftdiaries.com
+  resources:
+  - kodespaces/status
+  verbs:
+  - get

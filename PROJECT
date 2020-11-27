@@ -1,0 +1,7 @@
+domain: swiftdiaries.com
+repo: github.com/swiftdiaries/kodespaces
+resources:
+- group: kode
+  kind: Kodespace
+  version: v1alpha1
+version: "2"
